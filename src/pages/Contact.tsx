@@ -5,7 +5,7 @@ interface ContactPageProps {
   phoneNumber?: string;
 }
 const ContactPage = ({
-  phoneNumber = "+91 8890488299"
+  phoneNumber = "+91 9914767243"
 }: ContactPageProps) => {
   const handleWhatsApp = () => {
     window.open(`https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}`, '_blank');

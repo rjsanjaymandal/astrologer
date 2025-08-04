@@ -26,7 +26,7 @@ import lostLove from "@/assets/lost_love.jpg"
 import duaChild from "@/assets/dua_child.jpg"
 
 const Index = () => {
-  const phoneNumber = "+91 8890488299";
+  const phoneNumber = "+91 9914767243";
 
   const services = [
     {

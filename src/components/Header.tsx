@@ -8,7 +8,7 @@ interface HeaderProps {
 }
 
 export const Header = ({
-  phoneNumber
+  phoneNumber = "9914767243"
 }: HeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -19,9 +19,9 @@ export const Header = ({
 
   const navLinks = [
     { to: "/", label: "Home" },
-    { to: "/about", label: "About" },
-    { to: "/services", label: "Services" },
-    { to: "/contact", label: "Contact" }
+    { to: "/about", label: "About Us" },
+    { to: "/services", label: "Our Services" },
+    { to: "/contact", label: "Contact Us" },
   ];
 
   return (
@@ -60,7 +60,7 @@ export const Header = ({
               className="hidden sm:flex items-center gap-2 animate-pulse"
             >
               <Phone size={20} />
-              <span className="hidden lg:inline">Call: {phoneNumber}</span>
+              <span className="hidden lg:inline">Call: {"9914767243"}</span>
               <span className="lg:hidden">Call</span>
             </Button>
 

@@ -20,7 +20,7 @@ export const WhatsAppFloatingIcon = ({
         className="bg-green-500 hover:bg-green-600 text-white rounded-full w-20 h-20 flex items-center justify-center shadow-lg transform hover:scale-110 transition-transform duration-200"
         onClick={handleWhatsAppClick}
       >
-        <FaWhatsapp className="w-24 h-24 !w-[55px] !h-[55px]" />
+        <FaWhatsapp className="!w-[55px] !h-[55px] w-24 h-24" />
         <span className="sr-only">Chat on WhatsApp</span>
       </Button>
 
