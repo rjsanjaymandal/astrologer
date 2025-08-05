@@ -2,7 +2,7 @@ import React from 'react';
 import lostLoveVideo from "@/assets/lost_love.mp4";
 
 export const LostLoveSection = () => {
-    const phoneNumber = "+91 8890488299";
+    const phoneNumber = "+91 9914767243";
     const message = "Hello, I would like to know more about the Lost Love Back services.";
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
